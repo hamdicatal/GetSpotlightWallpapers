@@ -1,3 +1,5 @@
+![ScreenShot](https://i1.wp.com/www.hamdicatal.com/wp-content/uploads/2017/05/get-spotlight.jpg "Spotlight")
+
 # GetSpotlightWallpapers
 Get Windows 10 Spotlight wallpapers from path;
 
