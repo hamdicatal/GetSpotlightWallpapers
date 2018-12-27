@@ -143,11 +143,18 @@ namespace Spotlight
 
             string activeDir2 = path + "\\Desktop\\" + CreateFolder();
 
-            Copy(activeDir, activeDir2);
-
-            RenameThem();
-
-            DeleteOthers();
+            try
+            {
+                Copy(activeDir, activeDir2);
+                RenameThem();
+                DeleteOthers();
+                MessageBox.Show("İşlem başarılı! Lütfen masaüstünü kontrol edin.");
+            }
+            catch
+            {
+                MessageBox.Show("Bir hata oluştu! Lütfen uygulamayı kapatıp, tekrar deneyin.");
+            }
+            
         }
 
         private void lblBilgi_Click(object sender, EventArgs e)
