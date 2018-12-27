@@ -148,7 +148,7 @@ namespace Spotlight
                 Copy(activeDir, activeDir2);
                 RenameThem();
                 DeleteOthers();
-                MessageBox.Show("İşlem başarılı! Lütfen masaüstünü kontrol edin.");
+                MessageBox.Show("İşlem başarılı! Lütfen masaüstünü kontrol edin. Uygulamayı yeniden çalıştırmak için lütfen masaüstündeki Spotlight klasörünü silin.");
             }
             catch
             {
